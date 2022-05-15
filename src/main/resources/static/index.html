@@ -1,0 +1,30 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <h1>Playlist Converter</h1>
+</head>
+<br />
+<body>
+    <label>Source Playlist Streaming Service: </label>
+    <select id="source-playlist-type">
+        <option value="SPOTIFY">Spotify</option>
+        <option value="APPLE_MUSIC">Apple Music</option>
+    </select>
+    <br />
+    <label>Destination Streaming Service: </label>
+    <select id="destination-playlist-type">
+        <option value="SPOTIFY">Spotify</option>
+        <option value="APPLE_MUSIC">Apple Music</option>
+    </select>
+    <br />
+    <label>Original Playlist URL: </label>
+    <input id="playlist-url" type="text"/>
+    <button onclick="submitForm()">Submit</button>
+
+    <br />
+    <br />
+
+    <span id="result"></span>
+
+    <script src="scripts.js" type="application/javascript"></script>
+</body>
+</html>
